@@ -26,7 +26,7 @@ html {
 
 /* HEADER */
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -37,6 +37,8 @@ html {
 
   padding: 30px 60px;
   z-index: 10;
+
+  background-color: transparent;
 }
 
 .logo {
